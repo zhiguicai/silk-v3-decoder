@@ -91,7 +91,11 @@ sh converter.sh input ouput mp3
 注意：其中`input`是要转换的目录，而`output`是最终转换后音频输出的目录，最后的`mp3`参数是最终转换后输出的格式。
 
 如果你需要在`Windows`下使用该程序，请下载[silk2mp3.exe](https://dl.kn007.net/directlink/silk2mp3.zip "silk2mp3.zip")应用程序来完成转换，你可<a href='/windows' target="_blank">点击这里</a>来查看更多Windows下如何使用的相关说明。
-
+## 新增MP3转arm
+~~~
+[root@VM-4-4-centos silk-v3-decoder-master]# sh /root/silk-v3-decoder-master/convert_mp32arm.sh /root/silk-v3-decoder-master/voice003.mp3
+Conversion successful: /usr/app/tmp/voice003.amr
+~~~
 ## 关于作者
 
 [kn007的个人博客](https://kn007.net) 
