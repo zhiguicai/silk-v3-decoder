@@ -96,6 +96,12 @@ sh converter.sh input ouput mp3
 [root@VM-4-4-centos silk-v3-decoder-master]# sh /root/silk-v3-decoder-master/convert_mp32arm.sh /root/silk-v3-decoder-master/voice003.mp3
 Conversion successful: /usr/app/tmp/voice003.amr
 ~~~
+
+## 新增wav转arm
+~~~
+[root@VM-4-4-centos ~]# sh /root/silk-v3-decoder-master/convert_wav2arm.sh /root/recordByPC.wav
+Conversion successful: /usr/app/tmp/recordByPC.amr
+~~~
 ## 关于作者
 
 [kn007的个人博客](https://kn007.net) 
